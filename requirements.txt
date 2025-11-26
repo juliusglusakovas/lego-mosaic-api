@@ -1,0 +1,12 @@
+# Базовые зависимости, как у тебя в Gradio
+gradio==4.44.1
+huggingface-hub<1.0
+numpy
+pillow
+pandas
+scipy
+
+# Новые зависимости для API
+fastapi
+uvicorn[standard]
+python-multipart
