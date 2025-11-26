@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: lego-mosaic-api
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn api_server:app --host 0.0.0.0 --port $PORT"
